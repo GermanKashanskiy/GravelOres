@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory
+license="MIT"
+[[mods]] #mandatory
+modId="gravelores" #mandatory
+version="1.0-1.18.2" #mandatory
+displayName="Gravel Ores" #mandatory
+logoFile="gravelores.png" #optional
+credits="Thanks goes to DigimasterHiro" #optional
+authors="GITIPI" #optional
+#mandatory
+description='''
+Mod adds gravel ores
+'''
+[[dependencies.gravelores]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.gravelores]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
